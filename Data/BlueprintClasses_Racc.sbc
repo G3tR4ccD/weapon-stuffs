@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <BlueprintClasses>
+        <Class>
+            <Id>
+                <TypeId>BlueprintClassDefinition</TypeId>
+                <SubtypeId>EliteConsumables</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_BlueprintClass_Ammo</DisplayName>
+            <Description>Description_BlueprintClass_Ammo</Description>
+            <Icon>Textures\GUI\Icons\buttons\Ammo.dds</Icon>
+            <HighlightIcon>Textures\GUI\Icons\buttons\Ammo.dds</HighlightIcon>
+            <FocusIcon>Textures\GUI\Icons\buttons\AmmoFocus.dds</FocusIcon>
+            <InputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</InputConstraintIcon>
+        </Class>
+    </BlueprintClasses>	
+
+    <BlueprintClassEntries>
+	
+        <Entry Class="EliteConsumables" BlueprintSubtypeId="125mm_Depleted_Uranium_Slug" />
+		<Entry Class="EliteConsumables" BlueprintSubtypeId="115mm_Tungsten_Slug" />
+		<Entry Class="EliteConsumables" BlueprintSubtypeId="220mm_Depleted_Uranium_Slug" />
+		<Entry Class="EliteConsumables" BlueprintSubtypeId="230mm_Tungsten_Slug" />
+		<Entry Class="EliteConsumables" BlueprintSubtypeId="350mm_Depleted_Uranium_Slug" />
+		<Entry Class="EliteConsumables" BlueprintSubtypeId="300mm_Tungsten_Slug" />
+		<Entry Class="EliteConsumables" BlueprintSubtypeId="540mm_Tungsten_Slug" />
+
+
+    </BlueprintClassEntries>
+</Definitions>

@@ -1,0 +1,266 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <AmmoMagazines>
+       
+        <AmmoMagazine>
+            <Id>
+                <TypeId>AmmoMagazine</TypeId>
+                <SubtypeId>125mm_Depleted_Uranium_Slug</SubtypeId>
+            </Id>
+            <DisplayName>125mm Depleted Uranium Slug</DisplayName>
+            <Icon>Textures\GUI\Icons\ammo\RailgunAmmoLarge.dds</Icon>
+            <Size>
+                <X>1.0</X>
+                <Y>0.3</Y>
+                <Z>0.3</Z>
+            </Size>
+            <Mass>60</Mass>
+            <Volume>40</Volume>
+            <Model>Models\Weapons\RailgunAmmoLarge.mwm</Model>
+            <PhysicalMaterial>Ammo</PhysicalMaterial>
+            <Capacity>1</Capacity>
+            <AmmoDefinitionId Subtype="125mm_Depleted_Uranium_Slug" />
+
+            <MinimumOfferAmount>3</MinimumOfferAmount>
+            <MaximumOfferAmount>15</MaximumOfferAmount>
+            <MinimumOrderAmount>100</MinimumOrderAmount>
+            <MaximumOrderAmount>2000</MaximumOrderAmount>
+            <CanPlayerOrder>true</CanPlayerOrder>
+        </AmmoMagazine>
+		
+		<AmmoMagazine>
+            <Id>
+                <TypeId>AmmoMagazine</TypeId>
+                <SubtypeId>115mm_Tungsten_Slug</SubtypeId>
+            </Id>
+            <DisplayName>125mm Tungsten Slug</DisplayName>
+            <Icon>Textures\GUI\Icons\ammo\RailgunAmmoLarge.dds</Icon>
+            <Size>
+                <X>1.0</X>
+                <Y>0.3</Y>
+                <Z>0.3</Z>
+            </Size>
+            <Mass>60</Mass>
+            <Volume>40</Volume>
+            <Model>Models\Weapons\RailgunAmmoLarge.mwm</Model>
+            <PhysicalMaterial>Ammo</PhysicalMaterial>
+            <Capacity>1</Capacity>
+            <AmmoDefinitionId Subtype="115mm_Tungsten_Slug" />
+
+            <MinimumOfferAmount>3</MinimumOfferAmount>
+            <MaximumOfferAmount>15</MaximumOfferAmount>
+            <MinimumOrderAmount>100</MinimumOrderAmount>
+            <MaximumOrderAmount>2000</MaximumOrderAmount>
+            <CanPlayerOrder>true</CanPlayerOrder>
+        </AmmoMagazine>
+		
+		<AmmoMagazine>
+            <Id>
+                <TypeId>AmmoMagazine</TypeId>
+                <SubtypeId>220mm_Depleted_Uranium_Slug</SubtypeId>
+            </Id>
+            <DisplayName>220mm Depleted Uranium Slug</DisplayName>
+            <Icon>Textures\GUI\Icons\ammo\RailgunAmmoLarge.dds</Icon>
+            <Size>
+                <X>1.0</X>
+                <Y>0.3</Y>
+                <Z>0.3</Z>
+            </Size>
+            <Mass>60</Mass>
+            <Volume>40</Volume>
+            <Model>Models\Weapons\RailgunAmmoLarge.mwm</Model>
+            <PhysicalMaterial>Ammo</PhysicalMaterial>
+            <Capacity>1</Capacity>
+            <AmmoDefinitionId Subtype="220mm_Depleted_Uranium_Slug" />
+
+            <MinimumOfferAmount>3</MinimumOfferAmount>
+            <MaximumOfferAmount>15</MaximumOfferAmount>
+            <MinimumOrderAmount>100</MinimumOrderAmount>
+            <MaximumOrderAmount>2000</MaximumOrderAmount>
+            <CanPlayerOrder>true</CanPlayerOrder>
+        </AmmoMagazine>
+		
+		<AmmoMagazine>
+            <Id>
+                <TypeId>AmmoMagazine</TypeId>
+                <SubtypeId>230mm_Tungsten_Slug</SubtypeId>
+            </Id>
+            <DisplayName>230mm Tungsten Slug</DisplayName>
+            <Icon>Textures\GUI\Icons\ammo\RailgunAmmoLarge.dds</Icon>
+            <Size>
+                <X>1.0</X>
+                <Y>0.3</Y>
+                <Z>0.3</Z>
+            </Size>
+            <Mass>60</Mass>
+            <Volume>40</Volume>
+            <Model>Models\Weapons\RailgunAmmoLarge.mwm</Model>
+            <PhysicalMaterial>Ammo</PhysicalMaterial>
+            <Capacity>1</Capacity>
+            <AmmoDefinitionId Subtype="230mm_Tungsten_Slug" />
+
+            <MinimumOfferAmount>3</MinimumOfferAmount>
+            <MaximumOfferAmount>15</MaximumOfferAmount>
+            <MinimumOrderAmount>100</MinimumOrderAmount>
+            <MaximumOrderAmount>2000</MaximumOrderAmount>
+            <CanPlayerOrder>true</CanPlayerOrder>
+        </AmmoMagazine>
+		
+		<AmmoMagazine>
+            <Id>
+                <TypeId>AmmoMagazine</TypeId>
+                <SubtypeId>350mm_Depleted_Uranium_Slug</SubtypeId>
+            </Id>
+            <DisplayName>220mm Depleted Uranium Slug</DisplayName>
+            <Icon>Textures\GUI\Icons\ammo\RailgunAmmoLarge.dds</Icon>
+            <Size>
+                <X>1.0</X>
+                <Y>0.3</Y>
+                <Z>0.3</Z>
+            </Size>
+            <Mass>60</Mass>
+            <Volume>40</Volume>
+            <Model>Models\Weapons\RailgunAmmoLarge.mwm</Model>
+            <PhysicalMaterial>Ammo</PhysicalMaterial>
+            <Capacity>1</Capacity>
+            <AmmoDefinitionId Subtype="350mm_Depleted_Uranium_Slug" />
+
+            <MinimumOfferAmount>3</MinimumOfferAmount>
+            <MaximumOfferAmount>15</MaximumOfferAmount>
+            <MinimumOrderAmount>100</MinimumOrderAmount>
+            <MaximumOrderAmount>2000</MaximumOrderAmount>
+            <CanPlayerOrder>true</CanPlayerOrder>
+        </AmmoMagazine>
+		
+		<AmmoMagazine>
+            <Id>
+                <TypeId>AmmoMagazine</TypeId>
+                <SubtypeId>300mm_Tungsten_Slug</SubtypeId>
+            </Id>
+            <DisplayName>300mm Tungsten Slug</DisplayName>
+            <Icon>Textures\GUI\Icons\ammo\RailgunAmmoLarge.dds</Icon>
+            <Size>
+                <X>1.0</X>
+                <Y>0.3</Y>
+                <Z>0.3</Z>
+            </Size>
+            <Mass>60</Mass>
+            <Volume>40</Volume>
+            <Model>Models\Weapons\RailgunAmmoLarge.mwm</Model>
+            <PhysicalMaterial>Ammo</PhysicalMaterial>
+            <Capacity>1</Capacity>
+            <AmmoDefinitionId Subtype="300mm_Tungsten_Slug" />
+
+            <MinimumOfferAmount>3</MinimumOfferAmount>
+            <MaximumOfferAmount>15</MaximumOfferAmount>
+            <MinimumOrderAmount>100</MinimumOrderAmount>
+            <MaximumOrderAmount>2000</MaximumOrderAmount>
+            <CanPlayerOrder>true</CanPlayerOrder>
+        </AmmoMagazine>
+		
+		<AmmoMagazine>
+            <Id>
+                <TypeId>AmmoMagazine</TypeId>
+                <SubtypeId>540mm_Tungsten_Slug</SubtypeId>
+            </Id>
+            <DisplayName>300mm Tungsten Slug</DisplayName>
+            <Icon>Textures\GUI\Icons\ammo\RailgunAmmoLarge.dds</Icon>
+            <Size>
+                <X>1.0</X>
+                <Y>0.3</Y>
+                <Z>0.3</Z>
+            </Size>
+            <Mass>60</Mass>
+            <Volume>40</Volume>
+            <Model>Models\Weapons\RailgunAmmoLarge.mwm</Model>
+            <PhysicalMaterial>Ammo</PhysicalMaterial>
+            <Capacity>1</Capacity>
+            <AmmoDefinitionId Subtype="540mm_Tungsten_Slug" />
+
+            <MinimumOfferAmount>3</MinimumOfferAmount>
+            <MaximumOfferAmount>15</MaximumOfferAmount>
+            <MinimumOrderAmount>100</MinimumOrderAmount>
+            <MaximumOrderAmount>2000</MaximumOrderAmount>
+            <CanPlayerOrder>true</CanPlayerOrder>
+        </AmmoMagazine>
+		
+		<AmmoMagazine>
+            <Id>
+                <TypeId>AmmoMagazine</TypeId>
+                <SubtypeId>40mmAmmoBox</SubtypeId>
+            </Id>
+            <DisplayName>40mm Ammo Box</DisplayName>
+            <Icon>Textures\GUI\Icons\ammo\Rifle_Ammo.dds</Icon>
+            <Size>
+                <X>0.2</X>
+                <Y>0.05</Y>
+                <Z>0.02</Z>
+            </Size>
+            <Mass>0.45</Mass>
+            <Volume>0.2</Volume>
+            <Model>Models\Weapons\Rifle_Ammo.mwm</Model>
+            <PhysicalMaterial>Ammo</PhysicalMaterial>
+            <Capacity>30</Capacity>
+            <AmmoDefinitionId Subtype="40mmAmmoBox" />
+
+            <MinimumOfferAmount>100</MinimumOfferAmount>
+            <MaximumOfferAmount>1000</MaximumOfferAmount>
+            <MinimumOrderAmount>100</MinimumOrderAmount>
+            <MaximumOrderAmount>2000</MaximumOrderAmount>
+            <CanPlayerOrder>false</CanPlayerOrder>
+        </AmmoMagazine>
+		
+		<AmmoMagazine>
+            <Id>
+                <TypeId>AmmoMagazine</TypeId>
+                <SubtypeId>20mmAmmoBox</SubtypeId>
+            </Id>
+            <DisplayName>20mm Ammo Box</DisplayName>
+            <Icon>Textures\GUI\Icons\ammo\Rifle_Ammo.dds</Icon>
+            <Size>
+                <X>0.2</X>
+                <Y>0.05</Y>
+                <Z>0.02</Z>
+            </Size>
+            <Mass>0.45</Mass>
+            <Volume>0.2</Volume>
+            <Model>Models\Weapons\Rifle_Ammo.mwm</Model>
+            <PhysicalMaterial>Ammo</PhysicalMaterial>
+            <Capacity>30</Capacity>
+            <AmmoDefinitionId Subtype="20mmAmmoBox" />
+
+            <MinimumOfferAmount>100</MinimumOfferAmount>
+            <MaximumOfferAmount>1000</MaximumOfferAmount>
+            <MinimumOrderAmount>100</MinimumOrderAmount>
+            <MaximumOrderAmount>2000</MaximumOrderAmount>
+            <CanPlayerOrder>false</CanPlayerOrder>
+        </AmmoMagazine>
+		
+		<AmmoMagazine>
+            <Id>
+                <TypeId>AmmoMagazine</TypeId>
+                <SubtypeId>60mmAmmoBox</SubtypeId>
+            </Id>
+            <DisplayName>60mm Ammo box</DisplayName>
+            <Icon>Textures\GUI\Icons\ammo\Rifle_Ammo.dds</Icon>
+            <Size>
+                <X>0.2</X>
+                <Y>0.05</Y>
+                <Z>0.02</Z>
+            </Size>
+            <Mass>0.45</Mass>
+            <Volume>0.2</Volume>
+            <Model>Models\Weapons\Rifle_Ammo.mwm</Model>
+            <PhysicalMaterial>Ammo</PhysicalMaterial>
+            <Capacity>30</Capacity>
+            <AmmoDefinitionId Subtype="60mmAmmoBox" />
+
+            <MinimumOfferAmount>100</MinimumOfferAmount>
+            <MaximumOfferAmount>1000</MaximumOfferAmount>
+            <MinimumOrderAmount>100</MinimumOrderAmount>
+            <MaximumOrderAmount>2000</MaximumOrderAmount>
+            <CanPlayerOrder>false</CanPlayerOrder>
+        </AmmoMagazine>
+		
+    </AmmoMagazines>
+</Definitions>

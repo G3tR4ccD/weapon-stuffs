@@ -1,0 +1,125 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <Blueprints>
+	
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>125mm_Depleted_Uranium_Slug</SubtypeId>
+            </Id>
+            <DisplayName>125mm Depleted Uranium Slug</DisplayName>
+            <Icon>Textures\GUI\Icons\ammo\RailgunAmmoLarge.dds</Icon>
+            <Prerequisites>
+                <Item Amount="20" TypeId="Ingot" SubtypeId="Iron" />
+                <Item Amount="3" TypeId="Ingot" SubtypeId="Nickel" />
+                <Item Amount="30" TypeId="Ingot" SubtypeId="Silicon" />
+                <Item Amount="1" TypeId="Ingot" SubtypeId="Uranium" />
+            </Prerequisites>
+            <Result Amount="1" TypeId="AmmoMagazine" SubtypeId="125mm_Depleted_Uranium_Slug" />
+            <BaseProductionTimeInSeconds>14</BaseProductionTimeInSeconds>
+        </Blueprint>
+		
+		<Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>115mm_Tungsten_Slug</SubtypeId>
+            </Id>
+            <DisplayName>220mm Tungsten Slug</DisplayName>
+            <Icon>Textures\GUI\Icons\ammo\RailgunAmmoLarge.dds</Icon>
+            <Prerequisites>
+                <Item Amount="20" TypeId="Ingot" SubtypeId="Iron" />
+                <Item Amount="3" TypeId="Ingot" SubtypeId="Nickel" />
+                <Item Amount="30" TypeId="Ingot" SubtypeId="Silicon" />
+                <Item Amount="1" TypeId="Ingot" SubtypeId="Uranium" />
+            </Prerequisites>
+            <Result Amount="1" TypeId="AmmoMagazine" SubtypeId="115mm_Tungsten_Slug" />
+            <BaseProductionTimeInSeconds>14</BaseProductionTimeInSeconds>
+        </Blueprint>
+		
+		<Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>220mm_Depleted_Uranium_Slug</SubtypeId>
+            </Id>
+            <DisplayName>220mm Depleted Uranium Slug</DisplayName>
+            <Icon>Textures\GUI\Icons\ammo\RailgunAmmoLarge.dds</Icon>
+            <Prerequisites>
+                <Item Amount="20" TypeId="Ingot" SubtypeId="Iron" />
+                <Item Amount="3" TypeId="Ingot" SubtypeId="Nickel" />
+                <Item Amount="30" TypeId="Ingot" SubtypeId="Silicon" />
+                <Item Amount="1" TypeId="Ingot" SubtypeId="Uranium" />
+            </Prerequisites>
+            <Result Amount="1" TypeId="AmmoMagazine" SubtypeId="220mm_Depleted_Uranium_Slug" />
+            <BaseProductionTimeInSeconds>14</BaseProductionTimeInSeconds>
+        </Blueprint>
+		
+		<Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>230mm_Tungsten_Slug</SubtypeId>
+            </Id>
+            <DisplayName>230mm Tungsten Slug</DisplayName>
+            <Icon>Textures\GUI\Icons\ammo\RailgunAmmoLarge.dds</Icon>
+            <Prerequisites>
+                <Item Amount="20" TypeId="Ingot" SubtypeId="Iron" />
+                <Item Amount="3" TypeId="Ingot" SubtypeId="Nickel" />
+                <Item Amount="30" TypeId="Ingot" SubtypeId="Silicon" />
+                <Item Amount="1" TypeId="Ingot" SubtypeId="Uranium" />
+            </Prerequisites>
+            <Result Amount="1" TypeId="AmmoMagazine" SubtypeId="230mm_Tungsten_Slug" />
+            <BaseProductionTimeInSeconds>14</BaseProductionTimeInSeconds>
+        </Blueprint>
+		
+		<Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>350mm_Depleted_Uranium_Slug</SubtypeId>
+            </Id>
+            <DisplayName>350mm Depleted Uranium Slug</DisplayName>
+            <Icon>Textures\GUI\Icons\ammo\RailgunAmmoLarge.dds</Icon>
+            <Prerequisites>
+                <Item Amount="20" TypeId="Ingot" SubtypeId="Iron" />
+                <Item Amount="3" TypeId="Ingot" SubtypeId="Nickel" />
+                <Item Amount="30" TypeId="Ingot" SubtypeId="Silicon" />
+                <Item Amount="1" TypeId="Ingot" SubtypeId="Uranium" />
+            </Prerequisites>
+            <Result Amount="1" TypeId="AmmoMagazine" SubtypeId="350mm_Depleted_Uranium_Slug" />
+            <BaseProductionTimeInSeconds>14</BaseProductionTimeInSeconds>
+        </Blueprint>
+		
+		<Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>300mm_Tungsten_Slug</SubtypeId>
+            </Id>
+            <DisplayName>300mm Tungsten Slug</DisplayName>
+            <Icon>Textures\GUI\Icons\ammo\RailgunAmmoLarge.dds</Icon>
+            <Prerequisites>
+                <Item Amount="20" TypeId="Ingot" SubtypeId="Iron" />
+                <Item Amount="3" TypeId="Ingot" SubtypeId="Nickel" />
+                <Item Amount="30" TypeId="Ingot" SubtypeId="Silicon" />
+                <Item Amount="1" TypeId="Ingot" SubtypeId="Uranium" />
+            </Prerequisites>
+            <Result Amount="1" TypeId="AmmoMagazine" SubtypeId="300mm_Tungsten_Slug" />
+            <BaseProductionTimeInSeconds>14</BaseProductionTimeInSeconds>
+        </Blueprint>
+		
+		<Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>540mm_Tungsten_Slug</SubtypeId>
+            </Id>
+            <DisplayName>540mm Tungsten Slug</DisplayName>
+            <Icon>Textures\GUI\Icons\ammo\RailgunAmmoLarge.dds</Icon>
+            <Prerequisites>
+                <Item Amount="20" TypeId="Ingot" SubtypeId="Iron" />
+                <Item Amount="3" TypeId="Ingot" SubtypeId="Nickel" />
+                <Item Amount="30" TypeId="Ingot" SubtypeId="Silicon" />
+                <Item Amount="1" TypeId="Ingot" SubtypeId="Uranium" />
+            </Prerequisites>
+            <Result Amount="1" TypeId="AmmoMagazine" SubtypeId="540mm_Tungsten_Slug" />
+            <BaseProductionTimeInSeconds>14</BaseProductionTimeInSeconds>
+        </Blueprint>
+		
+    </Blueprints>
+</Definitions>

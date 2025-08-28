@@ -1,0 +1,259 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <CubeBlocks>
+        <Definition xsi:type="MyObjectBuilder_WeaponBlockDefinition">
+            <Id>
+                <TypeId>SmallMissileLauncher</TypeId>
+                <SubtypeId>TorpTube</SubtypeId>
+            </Id>
+            <DisplayName>Torpedo Tube</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\missile_launcher.dds</Icon>
+            <Description>Standard, high speed, high damage Plasma Warhead torpedos. Vulnerable to PD, but if landed, can do damage.</Description>
+            <CubeSize>Large</CubeSize>
+            <GuiVisible>false</GuiVisible>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="2" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Large\RocketLauncher.mwm</Model>
+            <Components>
+                <Component Subtype="SteelPlate" Count="20" />
+                <Component Subtype="Construction" Count="8" />
+                <Component Subtype="MetalGrid" Count="30" />
+                <Component Subtype="LargeTube" Count="25" />
+                <Component Subtype="Motor" Count="6" />
+                <Component Subtype="Computer" Count="4" />
+                <Component Subtype="SteelPlate" Count="15" />
+            </Components>
+            <CriticalComponent Subtype="Computer" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
+                <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="2" />
+                <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="2" />
+                <MountPoint Side="Right" StartX="0" StartY="0" EndX="2" EndY="1" />
+                <MountPoint Side="Left" StartX="0" StartY="0" EndX="2" EndY="1" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\RocketLauncherConstruction_1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\RocketLauncherConstruction_2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\RocketLauncherConstruction_3.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>TorpTube</BlockPairName>
+            <MirroringY>Z</MirroringY>
+            <MirroringZ>Y</MirroringZ>
+            <Center x="0" y="0" z="1" />
+            <BuildTimeSeconds>30</BuildTimeSeconds>
+            <EdgeType>Light</EdgeType>
+            <WeaponDefinitionId Subtype="TorpTube" />
+            <ResourceSinkGroup>Defense</ResourceSinkGroup>
+            <InventoryMaxVolume>1.14</InventoryMaxVolume>
+            <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
+            <DamagedSound>ParticleWeapExpl</DamagedSound>
+            <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+            <DestroySound>WepSmallWarheadExpl</DestroySound>
+            <PCU>825</PCU>
+            <TargetingGroups>
+                <string>Weapons</string>
+            </TargetingGroups>
+        </Definition>
+		
+		<Definition xsi:type="MyObjectBuilder_WeaponBlockDefinition">
+            <Id>
+                <TypeId>SmallMissileLauncher</TypeId>
+                <SubtypeId>EMPTorpTube</SubtypeId>
+            </Id>
+            <DisplayName>EMP Torpedo Tube</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\missile_launcher.dds</Icon>
+            <Description>Fires a specialized EWAR package, capable of disabling an entire ship on impact. The missile moves at a slower speed due to the sensitive equipment payload in its warhead.</Description>
+            <CubeSize>Large</CubeSize>
+            <GuiVisible>false</GuiVisible>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="2" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Large\RocketLauncher.mwm</Model>
+            <Components>
+                <Component Subtype="SteelPlate" Count="20" />
+                <Component Subtype="Construction" Count="8" />
+                <Component Subtype="MetalGrid" Count="30" />
+                <Component Subtype="LargeTube" Count="25" />
+                <Component Subtype="Motor" Count="6" />
+                <Component Subtype="Computer" Count="4" />
+                <Component Subtype="SteelPlate" Count="15" />
+            </Components>
+            <CriticalComponent Subtype="Computer" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
+                <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="2" />
+                <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="2" />
+                <MountPoint Side="Right" StartX="0" StartY="0" EndX="2" EndY="1" />
+                <MountPoint Side="Left" StartX="0" StartY="0" EndX="2" EndY="1" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\RocketLauncherConstruction_1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\RocketLauncherConstruction_2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\RocketLauncherConstruction_3.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>EMPTorpTube</BlockPairName>
+            <MirroringY>Z</MirroringY>
+            <MirroringZ>Y</MirroringZ>
+            <Center x="0" y="0" z="1" />
+            <BuildTimeSeconds>30</BuildTimeSeconds>
+            <EdgeType>Light</EdgeType>
+            <WeaponDefinitionId Subtype="EMPTorpTube" />
+            <ResourceSinkGroup>Defense</ResourceSinkGroup>
+            <InventoryMaxVolume>1.14</InventoryMaxVolume>
+            <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
+            <DamagedSound>ParticleWeapExpl</DamagedSound>
+            <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+            <DestroySound>WepSmallWarheadExpl</DestroySound>
+            <PCU>825</PCU>
+            <TargetingGroups>
+                <string>Weapons</string>
+            </TargetingGroups>
+        </Definition>	
+       
+	   <Definition xsi:type="MyObjectBuilder_LargeTurretBaseDefinition">
+            <Id>
+                <TypeId>LargeMissileTurret</TypeId>
+                <SubtypeId>INTTorpBat</SubtypeId>
+            </Id>
+            <DisplayName>"Interceptor" Anti-Missile Battery</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\missile_turret.dds</Icon>
+            <Description>Fires an “anti-missile” missile, which locks onto incoming missiles, and intercepts them.</Description>
+            <CubeSize>Large</CubeSize>
+            <GuiVisible>false</GuiVisible>
+            <PlaceDecals>false</PlaceDecals>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="3" y="3" z="3" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Large\MissileTurret.mwm</Model>
+            <UseModelIntersection>true</UseModelIntersection>
+            <Components>
+                <Component Subtype="SteelPlate" Count="10" />
+                <Component Subtype="Construction" Count="35" />
+                <Component Subtype="MetalGrid" Count="15" />
+                <Component Subtype="LargeTube" Count="6" />
+                <Component Subtype="Motor" Count="16" />
+                <Component Subtype="Computer" Count="10" />
+                <Component Subtype="Construction" Count="15" />
+                <Component Subtype="SteelPlate" Count="30" />
+            </Components>
+            <CriticalComponent Subtype="Computer" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Bottom" StartX="1" StartY="1" EndX="2" EndY="2" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\MissileTurretConstruction_1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\MissileTurretConstruction_2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\MissileTurretConstruction_3.mwm" />
+            </BuildProgressModels>
+            <VoxelPlacement>
+                <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
+                <StaticMode>
+                    <PlacementMode>OutsideVoxel</PlacementMode>
+                    <MaxAllowed>0.2</MaxAllowed>
+                    <MinAllowed>0</MinAllowed>
+                </StaticMode>
+                <DynamicMode>
+                    <PlacementMode>OutsideVoxel</PlacementMode>
+                    <MaxAllowed>0.2</MaxAllowed>
+                    <MinAllowed>0.01</MinAllowed>
+                </DynamicMode>
+            </VoxelPlacement>
+            <BlockPairName>INTTorpBat</BlockPairName>
+            <MirroringY>Z</MirroringY>
+            <MirroringZ>Y</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>40</BuildTimeSeconds>
+            <OverlayTexture>Textures\GUI\Screens\turret_overlay.dds</OverlayTexture>
+            <WeaponDefinitionId Subtype="INTTorpBat" />
+            <EnabledTargetingOptions>Missiles </EnabledTargetingOptions>
+            <HiddenTargetingOptions>Enemies SmallShips LargeShips Stations Friends Asteroids</HiddenTargetingOptions>
+            <InventoryMaxVolume>0.384</InventoryMaxVolume>
+            <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
+            <DamagedSound>ParticleWeapExpl</DamagedSound>
+            <ResourceSinkGroup>Defense</ResourceSinkGroup>
+            <MinElevationDegrees>-58</MinElevationDegrees>
+            <MaxElevationDegrees>90</MaxElevationDegrees>
+            <MinAzimuthDegrees>-180</MinAzimuthDegrees>
+            <MaxAzimuthDegrees>180</MaxAzimuthDegrees>
+            <IdleRotation>true</IdleRotation>
+            <MaxRangeMeters>20000</MaxRangeMeters>
+            <RotationSpeed>0.001</RotationSpeed>
+            <ElevationSpeed>0.001 </ElevationSpeed>
+            <EmissiveColorPreset>Default</EmissiveColorPreset>
+            <MinFov>0.1</MinFov>
+            <MaxFov>1.04719755</MaxFov>
+            <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+            <DestroySound>WepSmallWarheadExpl</DestroySound>
+            <PCU>275</PCU>
+            <IsAirTight>false</IsAirTight>
+            <AmmoPullAmountPerTick>3</AmmoPullAmountPerTick>
+            <InventoryFillFactorMin>.25</InventoryFillFactorMin>
+            <InventoryFillFactorMax>.5</InventoryFillFactorMax>
+            <TieredUpdateTimes>
+                <unsignedInt>10</unsignedInt>
+                <unsignedInt>0</unsignedInt>
+            </TieredUpdateTimes>
+            <TargetingGroups>
+                <string>Weapons</string>
+            </TargetingGroups>
+            <UpCameraOffset>1.0</UpCameraOffset>
+            <ForwardCameraOffset>0.5</ForwardCameraOffset>
+        </Definition>	
+
+	
+        <Definition xsi:type="MyObjectBuilder_WeaponBlockDefinition">
+            <Id>
+                <TypeId>SmallMissileLauncher</TypeId>
+                <SubtypeId>CMFlares</SubtypeId>
+            </Id>
+            <DisplayName>CM Flare Launcher</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\FlareLauncher.dds</Icon>
+            <Description>Fires counter-measure flares designed to distract enemy missile guidance packages.</Description>
+            <CubeSize>Large</CubeSize>
+            <GuiVisible>true</GuiVisible>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Large\FlareLauncher.mwm</Model>
+            <Components>
+                <Component Subtype="SteelPlate" Count="10" />
+                <Component Subtype="Construction" Count="10" />
+                <Component Subtype="LargeTube" Count="10" />
+                <Component Subtype="Computer" Count="4" />
+                <Component Subtype="SteelPlate" Count="10" />
+            </Components>
+            <CriticalComponent Subtype="Computer" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Bottom" StartX="0.1" StartY="0.5" EndX="0.9" EndY="1.0" />
+                <MountPoint Side="Top" StartX="0.1" StartY="0" EndX="0.9" EndY="0.5" />
+                <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
+                <MountPoint Side="Right" StartX="0" StartY="0.1" EndX="0.5" EndY="0.9" />
+                <MountPoint Side="Left" StartX="0.5" StartY="0.1" EndX="1.0" EndY="0.9" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\FlareLauncherConstruction_1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\FlareLauncherConstruction_2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\FlareLauncherConstruction_3.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>CMFlares</BlockPairName>
+            <MirroringY>Z</MirroringY>
+            <MirroringZ>Y</MirroringZ>
+            <Center x="0" y="0" z="0" />
+            <BuildTimeSeconds>12</BuildTimeSeconds>
+            <EdgeType>Light</EdgeType>
+            <WeaponDefinitionId Subtype="CMFlares" />
+            <ResourceSinkGroup>Defense</ResourceSinkGroup>
+            <InventoryMaxVolume>0.032</InventoryMaxVolume>
+            <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
+            <DamagedSound>ParticleWeapExpl</DamagedSound>
+            <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+            <DestroySound>WepSmallWarheadExpl</DestroySound>
+            <TargetingGroups>
+            </TargetingGroups>
+            <PCU>150</PCU>
+        </Definition>
+		
+		
+    </CubeBlocks>		
+</Definitions>

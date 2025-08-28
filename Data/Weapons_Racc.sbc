@@ -1,0 +1,167 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <Weapons>
+
+		<Weapon>
+            <Id>
+                <TypeId>WeaponDefinition</TypeId>
+                <SubtypeId>WR_Pilum</SubtypeId>
+            </Id>
+            <MissileAmmoData RateOfFire="6" ShootSoundName="MediumRailgun" FlightSoundName="WepRailgunLargeCharge" RicochetSoundName="HeavyShellFlightSound"  ShotsInBurst="1" />
+            <DeviateShotAngle>0.3</DeviateShotAngle>
+            <DeviateShotAngleAiming>0.3</DeviateShotAngleAiming>
+            <MinimumTimeBetweenIdleRotationsMs>15000</MinimumTimeBetweenIdleRotationsMs>
+            <MaximumTimeBetweenIdleRotationsMs>20000</MaximumTimeBetweenIdleRotationsMs>
+            <NoAmmoSoundName>WepShipRailgunNoAmmo</NoAmmoSoundName>
+            <AmmoMagazines>
+                <AmmoMagazine Subtype="125mm_Depleted_Uranium_Slug" />
+            </AmmoMagazines>
+            <ReloadTime>10000</ReloadTime>
+            <Effects>
+                <Effect Action="Shoot" Dummy="barrel_001" Particle="Muzzle_Flash_RailgunLarge" Loop="false" InstantStop="false" DisplayOnlyOnDummyFiring="true"/>
+            </Effects>
+        </Weapon>
+		
+		<Weapon>
+            <Id>
+                <TypeId>WeaponDefinition</TypeId>
+                <SubtypeId>WR_Artemis</SubtypeId>
+            </Id>
+            <MissileAmmoData RateOfFire="60" ShootSoundName="MediumRailgun" FlightSoundName="WepRailgunLargeCharge" RicochetSoundName="HeavyShellFlightSound" ShotsInBurst="2" />
+            <DeviateShotAngle>0.3</DeviateShotAngle>
+			<ShotDelay>2000</ShotDelay>
+            <DeviateShotAngleAiming>0.3</DeviateShotAngleAiming>
+            <MinimumTimeBetweenIdleRotationsMs>15000</MinimumTimeBetweenIdleRotationsMs>
+            <MaximumTimeBetweenIdleRotationsMs>20000</MaximumTimeBetweenIdleRotationsMs>
+            <NoAmmoSoundName>WepShipRailgunNoAmmo</NoAmmoSoundName>
+            <AmmoMagazines>
+                <AmmoMagazine Subtype="115mm_Tungsten_Slug" />
+            </AmmoMagazines>
+            <ReloadTime>15000</ReloadTime>
+            <Effects>
+                <Effect Action="Shoot" Dummy="barrel_001" Particle="Railgun-Fire-3" Loop="false" InstantStop="false" DisplayOnlyOnDummyFiring="true"/>
+            </Effects>
+        </Weapon>
+		
+		<Weapon>
+            <Id>
+                <TypeId>WeaponDefinition</TypeId>
+                <SubtypeId>WR_Cerberus</SubtypeId>
+            </Id>
+            <MissileAmmoData RateOfFire="60" ShootSoundName="MediumRailgun" FlightSoundName="WepRailgunLargeCharge" RicochetSoundName="HeavyShellFlightSound" ShotsInBurst="3" />
+            <DeviateShotAngle>0.3</DeviateShotAngle>
+            <DeviateShotAngleAiming>0.3</DeviateShotAngleAiming>
+            <MinimumTimeBetweenIdleRotationsMs>15000</MinimumTimeBetweenIdleRotationsMs>
+            <MaximumTimeBetweenIdleRotationsMs>20000</MaximumTimeBetweenIdleRotationsMs>
+            <NoAmmoSoundName>WepShipRailgunNoAmmo</NoAmmoSoundName>
+            <AmmoMagazines>
+                <AmmoMagazine Subtype="125mm_Depleted_Uranium_Slug" />
+            </AmmoMagazines>
+            <ReloadTime>25000</ReloadTime>
+            <Effects>
+                <Effect Action="Shoot" Dummy="barrel_001" Particle="Muzzle_Flash_RailgunLarge" Loop="false" InstantStop="false" DisplayOnlyOnDummyFiring="true"/>
+            </Effects>
+        </Weapon>
+		
+		<Weapon>
+            <Id>
+                <TypeId>WeaponDefinition</TypeId>
+                <SubtypeId>WR_Hasta</SubtypeId>
+            </Id>
+            <MissileAmmoData RateOfFire="9" ShootSoundName="MediumRailgun" FlightSoundName="WepRailgunLargeCharge" RicochetSoundName="HeavyShellFlightSound" ShotsInBurst="1" />
+            <DeviateShotAngle>0.3</DeviateShotAngle>
+            <DeviateShotAngleAiming>0.3</DeviateShotAngleAiming>
+            <MinimumTimeBetweenIdleRotationsMs>15000</MinimumTimeBetweenIdleRotationsMs>
+            <MaximumTimeBetweenIdleRotationsMs>20000</MaximumTimeBetweenIdleRotationsMs>
+            <NoAmmoSoundName>WepShipRailgunNoAmmo</NoAmmoSoundName>
+            <AmmoMagazines>
+                <AmmoMagazine Subtype="220mm_Depleted_Uranium_Slug" />
+            </AmmoMagazines>
+            <ReloadTime>20000</ReloadTime>
+            <Effects>
+                <Effect Action="Shoot" Dummy="barrel_001" Particle="Muzzle_Flash_RailgunLarge" Loop="false" InstantStop="false" DisplayOnlyOnDummyFiring="true"/>
+            </Effects>
+        </Weapon>
+		
+		<Weapon>
+            <Id>
+                <TypeId>WeaponDefinition</TypeId>
+                <SubtypeId>WR_Poseidon</SubtypeId>
+            </Id>
+            <MissileAmmoData RateOfFire="60" ShootSoundName="MediumRailgun" FlightSoundName="WepRailgunLargeCharge" RicochetSoundName="HeavyShellFlightSound" ShotsInBurst="2" />
+            <DeviateShotAngle>0.3</DeviateShotAngle>
+            <DeviateShotAngleAiming>0.3</DeviateShotAngleAiming>
+            <MinimumTimeBetweenIdleRotationsMs>15000</MinimumTimeBetweenIdleRotationsMs>
+            <MaximumTimeBetweenIdleRotationsMs>20000</MaximumTimeBetweenIdleRotationsMs>
+            <NoAmmoSoundName>WepShipRailgunNoAmmo</NoAmmoSoundName>
+            <AmmoMagazines>
+                <AmmoMagazine Subtype="230mm_Tungsten_Slug" />
+            </AmmoMagazines>
+            <ReloadTime>20000</ReloadTime>
+            <Effects>
+                <Effect Action="Shoot" Dummy="barrel_001" Particle="Muzzle_Flash_RailgunLarge" Loop="false" InstantStop="false" DisplayOnlyOnDummyFiring="true"/>
+            </Effects>
+        </Weapon>
+		
+		<Weapon>
+            <Id>
+                <TypeId>WeaponDefinition</TypeId>
+                <SubtypeId>WR_Gungnir</SubtypeId>
+            </Id>
+            <MissileAmmoData RateOfFire="3" ShootSoundName="MediumRailgun" FlightSoundName="WepRailgunLargeCharge" RicochetSoundName="HeavyShellFlightSound" ShotsInBurst="1" />
+            <DeviateShotAngle>0.3</DeviateShotAngle>
+            <DeviateShotAngleAiming>0.3</DeviateShotAngleAiming>
+            <MinimumTimeBetweenIdleRotationsMs>15000</MinimumTimeBetweenIdleRotationsMs>
+            <MaximumTimeBetweenIdleRotationsMs>20000</MaximumTimeBetweenIdleRotationsMs>
+            <NoAmmoSoundName>WepShipRailgunNoAmmo</NoAmmoSoundName>
+            <AmmoMagazines>
+                <AmmoMagazine Subtype="350mm_Depleted_Uranium_Slug" />
+            </AmmoMagazines>
+            <ReloadTime>25000</ReloadTime>
+            <Effects>
+                <Effect Action="Shoot" Dummy="barrel_001" Particle="Muzzle_Flash_RailgunLarge" Loop="false" InstantStop="false" DisplayOnlyOnDummyFiring="true"/>
+            </Effects>
+        </Weapon>
+		
+		<Weapon>
+            <Id>
+                <TypeId>WeaponDefinition</TypeId>
+                <SubtypeId>WR_Hermes</SubtypeId>
+            </Id>
+            <MissileAmmoData RateOfFire="60" ShootSoundName="MediumRailgun" FlightSoundName="WepRailgunLargeCharge" RicochetSoundName="HeavyShellFlightSound" ShotsInBurst="2" />
+            <DeviateShotAngle>0.3</DeviateShotAngle>
+            <DeviateShotAngleAiming>0.3</DeviateShotAngleAiming>
+            <MinimumTimeBetweenIdleRotationsMs>15000</MinimumTimeBetweenIdleRotationsMs>
+            <MaximumTimeBetweenIdleRotationsMs>20000</MaximumTimeBetweenIdleRotationsMs>
+            <NoAmmoSoundName>WepShipRailgunNoAmmo</NoAmmoSoundName>
+            <AmmoMagazines>
+                <AmmoMagazine Subtype="300mm_Tungsten_Slug" />
+            </AmmoMagazines>
+            <ReloadTime>30000</ReloadTime>
+            <Effects>
+                <Effect Action="Shoot" Dummy="barrel_001" Particle="Muzzle_Flash_RailgunLarge" Loop="false" InstantStop="false" DisplayOnlyOnDummyFiring="true"/>
+            </Effects>
+        </Weapon>
+		
+		<Weapon>
+            <Id>
+                <TypeId>WeaponDefinition</TypeId>
+                <SubtypeId>WR_Centurion</SubtypeId>
+            </Id>
+            <MissileAmmoData RateOfFire="1" ShootSoundName="MediumRailgun" FlightSoundName="WepRailgunLargeCharge" RicochetSoundName="HeavyShellFlightSound" ShotsInBurst="1" />
+            <DeviateShotAngle>0.3</DeviateShotAngle>
+            <DeviateShotAngleAiming>0.3</DeviateShotAngleAiming>
+            <MinimumTimeBetweenIdleRotationsMs>15000</MinimumTimeBetweenIdleRotationsMs>
+            <MaximumTimeBetweenIdleRotationsMs>20000</MaximumTimeBetweenIdleRotationsMs>
+            <NoAmmoSoundName>WepShipRailgunNoAmmo</NoAmmoSoundName>
+            <AmmoMagazines>
+                <AmmoMagazine Subtype="540mm_Tungsten_Slug" />
+            </AmmoMagazines>
+            <ReloadTime>90000</ReloadTime>
+            <Effects>
+                <Effect Action="Shoot" Dummy="barrel_001" Particle="Muzzle_Flash_RailgunLarge" Loop="false" InstantStop="false" DisplayOnlyOnDummyFiring="true"/>
+            </Effects>
+        </Weapon>
+
+    </Weapons>
+</Definitions>

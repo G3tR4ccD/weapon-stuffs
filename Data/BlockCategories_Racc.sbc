@@ -1,0 +1,89 @@
+<?xml version="1.0"  encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <CategoryClasses>
+
+        <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition"> <!-- Weapons -->
+            <Id>
+                <TypeId>GuiBlockCategoryDefinition</TypeId>
+                <SubtypeId>Weapons</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Category_Weapons</DisplayName>
+            <Name>Section1_Position3_Weapons</Name>
+			<StrictSearch>true</StrictSearch>
+            <ItemIds>
+				<string>InteriorTurret/LargeInteriorTurret</string>
+				<string>LargeGatlingTurret/AutoCannonTurret</string>
+				<string>LargeGatlingTurret/SmallGatlingTurret</string>
+                <string>LargeGatlingTurret/SmallGatlingTurretReskin</string>
+				<string>LargeGatlingTurret/</string>
+                <string>LargeGatlingTurret/LargeGatlingTurretReskin</string>
+				<string>LargeMissileTurret/LargeMissileTurretReskin</string>
+				<string>LargeMissileTurret/SmallMissileTurretReskin</string>
+				<string>LargeMissileTurret/LargeBlockMediumCalibreTurret</string>
+				<string>LargeMissileTurret/LargeCalibreTurret</string>
+				<string>LargeMissileTurret/SmallBlockMediumCalibreTurret</string>
+				<string>LargeMissileTurret/SmallMissileTurret</string>
+				<string>LargeMissileTurret/</string>
+				<string>SmallGatlingGun/SmallGatlingGunWarfare2</string>
+				<string>SmallGatlingGun/SmallBlockAutocannon</string>
+				<string>SmallGatlingGun/</string>
+				<string>SmallMissileLauncher/SmallMissileLauncherWarfare2</string>
+				<string>SmallMissileLauncher/LargeBlockLargeCalibreGun</string>
+				<string>SmallMissileLauncher/LargeFlareLauncher</string>
+				<string>SmallMissileLauncher/LargeMissileLauncher</string>
+				<string>SmallMissileLauncher/SmallFlareLauncher</string>
+				<string>SmallMissileLauncher/</string>
+				<string>SmallMissileLauncherReload/LargeRailgun</string>
+				<string>SmallMissileLauncherReload/SmallBlockMediumCalibreGun</string>
+				<string>SmallMissileLauncherReload/SmallRailgun</string>
+				<string>SmallMissileLauncherReload/SmallRocketLauncherReload</string>
+				<string>Warhead/LargeExplosiveBarrel</string>
+				<string>Warhead/SmallExplosiveBarrel</string>
+				<string>Warhead/LargeWarhead</string>
+				<string>Warhead/SmallWarhead</string>
+				
+				<string>LargeMissileTurret/WR_Pilum</string>
+				<string>LargeMissileTurret/WR_Artemis</string>
+				<string>LargeMissileTurret/WR_Cerberus</string>
+				<string>LargeMissileTurret/WR_Hasta</string>
+				<string>LargeMissileTurret/WR_Poseidon</string>
+				<string>LargeMissileTurret/WR_Gungnir</string>
+				<string>LargeMissileTurret/WR_Hermes</string>
+				<string>LargeMissileTurret/WR_Centurion</string>
+
+            </ItemIds>
+        </Category>
+
+		<Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+      <Id>
+        <TypeId>GuiBlockCategoryDefinition</TypeId>
+        <SubtypeId/>
+      </Id>
+      <DisplayName>Knight Armory</DisplayName>
+      <Name>Cubeblock/Knight Armory</Name>
+	  <StrictSearch>true</StrictSearch>	  
+      <ItemIds>
+	  
+                <string>WR_Pilum</string>	  
+                <string>WR_Artemis</string>	
+                <string>WR_Cerberus</string>
+                <string>WR_Hasta</string>
+				<string>WR_Poseidon</string>
+				<string>WR_Gungnir</string>
+				<string>WR_Hermes</string>
+				<string>WR_Centurion</string>
+				
+				<string>WR_Stalwart</string>
+				<string>WR_Dionysus</string>
+				<string>WR_Pinard</string>
+				
+				<string>TorpTube</string>	  
+                <string>EMPTorbTube</string>	
+                <string>INTTorpBat</string>
+                <string>CMFlares</string>
+				
+      </ItemIds>
+    </Category>
+	
+    </CategoryClasses>
+</Definitions>
